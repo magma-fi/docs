@@ -6,7 +6,7 @@ We value long term sustainability greatly. To align the economic system and toke
 
 Here is how the whole Magma mechanism as it is proposed to work:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>A sustainable flywheel of real yield and value capture mechanics</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/WX20231101-151859@2x.png" alt=""><figcaption><p>A sustainable flywheel of real yield and value capture mechanics</p></figcaption></figure>
 
 ## **Pyro Mode**
 
@@ -37,7 +37,7 @@ Users depositing ioUSD in the Stability Pool that lock their dynamic liquidity t
 **The requirement to lock liquidity tokens in dLP serves the Magma Protocol in multiple ways:**
 
 1. **Long-Term Participation:** Locking dLP tokens effectively commits users to a set period, increasing the likelihood that they'll maintain their deposited collateral.
-2. **MGM Emissions Activation:** This commitment enables MGM emissions, rewarding those who are invested in the protocol's long-term vision.
+2. **$MGM Emissions Activation:** This commitment enables $MGM emissions, rewarding those who are invested in the protocol's long-term vision.
 3. **Attracting New Users:** The above dynamics make the Magma Protocol more appealing to potential liquidity providers, thereby stimulating both growth and development.
 
 This strategic cycle not only sustains long-term liquidity, but also catalyses new inflows, making it a win-win for both individual users and the protocol itself.
@@ -48,7 +48,7 @@ This strategic cycle not only sustains long-term liquidity, but also catalyses n
 
 **MGM must actively vest** and reach the 60-day maturity date to receive the full amount.
 
-**MGM Vesters** that engage and provide utility to the platform can capture the added value from the communities’ engagement within the money markets through MGM emissions. Users can exit early from their vest for a 25-90% penalty fee, or complete the 60-day vesting period to receive the full amount.
+**MGM Vesters** that engage and provide utility to the platform can capture the added value from the communities’ engagement within the money markets through MGM emissions. Users can exit early from their vesting, incurring a 25-90% penalty fee, or complete the 60-day vesting period to receive the full amount.
 
 The penalty paid is returned to the Magma DAO Reserve to increase the emissions runway.
 

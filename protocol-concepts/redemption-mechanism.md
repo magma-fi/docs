@@ -2,7 +2,7 @@
 
 ### Peg mechanisms
 
-`ioUSD` maintains a close association with `USD` due to its redeemability for collaterals at face value (i.e., 1 `ioUSD` can be exchanged for $1 worth of a chosen collateral), and the mandated minimum collateral ratio of `150%`. These conditions create a price floor and ceiling, respectively, through arbitrage opportunities. These are known as "hard peg mechanisms" as they rely on explicit operations.
+`ioUSD` maintains a close association with `USD` due to its redeemability for collaterals at face value (i.e., 1 `ioUSD` can be exchanged for $1 worth of a chosen collateral), and the mandated Maximum Loan-to-Value (MLTV) ratio of 77%. These conditions create a price floor and ceiling, respectively, through arbitrage opportunities. These are known as "hard peg mechanisms" as they rely on explicit operations.
 
 `ioUSD` also utilizes more indirect methods to maintain `USD` parity — referred to as "soft peg mechanisms". One such mechanism is parity as a Schelling point. As the Magma protocol treats `ioUSD` as equivalent to `USD`, parity between the two is an inherent equilibrium state of the system.&#x20;
 
@@ -22,7 +22,7 @@ For instance, if the prevailing redemption fee is `1%`, the price of `IOTX` is `
 
 Note that the redeemed amount contributes to the calculation of the `baseRate` and may influence the redemption fee, particularly for large amounts.
 
-Redemption fees are initially collected as protocol income. But governance can decide whether it should be spilt between the protocol and redeemed Vaults.&#x20;
+Redemption fees are initially collected as protocol income. But governance can decide whether it should be split between the protocol and redeemed Vaults.&#x20;
 
 ### **baseRate calculation**
 
@@ -47,4 +47,6 @@ If your Vault is redeemed against, you _do not_ incur a net loss. However, you w
 
 The most effective way to prevent redemption against your vault is to maintain a high collateral ratio relative to the rest of the vaults in the system.&#x20;
 
-Keep in mind: The riskiest vaults (i.e., the least collateralized vaults) are targeted first when a redemption occurs.
+{% hint style="info" %}
+_Keep in mind: The riskiest vaults (i.e., the least collateralized vaults) are targeted first when a redemption occurs._
+{% endhint %}

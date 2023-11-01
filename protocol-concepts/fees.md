@@ -11,13 +11,13 @@ The protocol offers two types of fees: &#x20;
 
 The aim of these fees is to maintain the stability and liquidity of the protocol while also providing incentives for user participation.
 
-Both fixed fees and continuous interest can be adjusted by the governance of the **Magma** Protocol. This means that the **Magma** community can vote on the parameters of these fees for each collateral type, allowing the protocol to adapt to changing market conditions and ensuring that it continues to offer competitive rates for its users.
+Both fixed fees and continuous interest can be adjusted by the governance of the **Magma** Protocol. This means that the Magma community can vote on the parameters of these fees for each collateral type, allowing the protocol to adapt to changing market conditions and ensuring that it continues to offer competitive rates for its users.
 
 ### 1. Minting Fees
 
 Minting fees are one-time fees charged at the moment of borrowing. In the **Magma** protocol, this fee is applied when a user borrows `ioUSD` against their collateral.
 
-Every time `ioUSD` is drawn from an vault, a minting fee is charged on the drawn amount and added to the debt. Please note that the minting fee is variable (and determined algorithmically), with a minimum value of `0.5%` under normal operation. The fee is `0%` during [`Recovery Mode`](broken-reference). \
+Every time `ioUSD` is withdrawn from an vault, a minting fee is charged on the drawn amount and added to the debt. Please note that the minting fee is variable (and determined algorithmically), with a minimum value of `0.5%` under normal operation. The fee is `0%` during [`Recovery Mode`](broken-reference). \
 A `10 ioUSD` `Liquidation Reserve` charge will be applied as well, but returned upon repayment of debt.
 
 #### **Minting fee calculation**
@@ -32,13 +32,13 @@ The borrowing fee stands at `0.5%` and the borrower wants to receive `4,000 ioUS
 
 ### 2. Redemption fees
 
-In **Magma**, redemptions are transactions where users can exchange their `ioUSD` for a collateral of their choice at face value, subject to a fee known as the Redemption Fee. The purpose of this fee is to protect the system during periods of low collateral ratio by disincentivizing redemptions and ensuring the system remains solvent. \
+In Magma, redemptions are transactions where users can exchange their `ioUSD` for a collateral of their choice at face value, subject to a fee known as the Redemption Fee. The purpose of this fee is to protect the system during periods of low collateral ratio by disincentivizing redemptions and ensuring the system remains solvent. \
 \
 You can find more detail on how it's calculated [here](redemption-mechanism.md#redemption-fee).
 
 ### 3. Borrow Interest Rate
 
-Borrow Interest Rate is a fee that accrues over time on outstanding debt. This is common in most lending protocols and serves as a source of revenue that helps maintain the protocol's operations. In **Magma**, this fee is charged on the `ioUSD` borrowed against the collateral and the DAO will have a say concerning its parameters.
+Borrow Interest Rate is a fee that accrues over time on outstanding debt. This is common in most lending protocols and serves as a source of revenue that helps maintain the protocol's operations. In Magma, this fee is charged on the `ioUSD` borrowed against the collateral and the DAO will have a say concerning its parameters.
 
 #### Interest Calculation
 
@@ -48,7 +48,7 @@ Successful execution of one of these functions triggers the `_accrueActiveIntere
 
 #### **Example of interest accrual:**
 
-* Alice mints `10,000 ioUSD` from the **Magma** protocol.&#x20;
+* Alice mints `10,000 ioUSD` from the Magma protocol.&#x20;
 * At the time of supply, the `interestRate` is `0.00000031709792 per second`.&#x20;
 * No one interacts with the `Vault Manager` contract for 100 seconds.&#x20;
 * Subsequently, Bob borrows some `ioUSD`.&#x20;

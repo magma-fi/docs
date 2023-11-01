@@ -8,7 +8,7 @@ Whenever a vault is liquidated, an equivalent amount of ioUSD (corresponding to 
 
 The stability pool is financed by users (known as stability providers) depositing ioUSD into it. Over time, these stability providers witness a proportional reduction in their ioUSD deposits, but in return, they gain a proportional share of the liquidated collaterals.
 
-Given that vaults are usually liquidated at slightly below 150% collateral ratios, it is anticipated that stability providers will amass a larger usd value of collaterals relative to the debt they offset.
+Given that vaults are usually liquidated at slightly above 77% Loan-To-Value (LTV) ratios, it is anticipated that stability providers will amass a larger USD value of collaterals relative to the debt they offset.
 
 ## Benefits for Stability Providers
 
@@ -18,7 +18,7 @@ Stability providers benefit from financing the stability pool in several ways.
 
 To start with, stability providers get access to discounted collaterals (from all the supported collaterals in Magma) from liquidations, without the need to spend gas or run liquidation bots.
 
-As liquidations happen just below the MCR, which is greater than 100%, stability providers receive a discount of `MCR - 100%` on the liquidated collateral, thus experiencing a net gain when a vault is liquidated.
+As liquidations happen just above the Maximum Loan-To-Value (MLTV) ratio, which is 77%, stability providers receive a discount of `100-MLTV` on the liquidated collateral, thus experiencing a net gain when a vault is liquidated.
 
 {% hint style="info" %}
 **Example:**
@@ -30,13 +30,13 @@ If a vault with 100,000 ioUSD debt and 9,000,000 IOTX collateral faces liquidati
 Specifically, your deposit will decrease by 10% of the liquidated debt, amounting to 10,000 ioUSD. This means your deposit will diminish from 100,000 to 90,000 ioUSD. In compensation, you'll acquire 10% of the liquidated collateral: 900,000 IOTX. At the given price, this collateral is valued at $15,000, rendering you a net profit of $5,000 from the liquidation event.
 {% endhint %}
 
-### Yields from collateral
+### Yields from Deposited Collateral
 
-Magma will put collateral into work to generate yields. Take IOTX for example. IOTX deposited will be staked into Bedrock - an IOTX liquid staking protocol - to accrue rewards. A portion of yields from collateral will be distributed into the Stability Pool.
+Magma will put collateral to work through generating yields. Take IOTX for example. IOTX deposited in Magma will be staked on Bedrock, an IOTX liquid staking protocol, to accrue rewards. A portion of yields from this collateral will be distributed to the Stability Pool.
 
 ### $Magma Token Emissions
 
-Furthermore, the Stability Pool is natively integrated into the $Magma emission system and therefore they accrue emissions while providing liquidity.
+Furthermore, the Stability Pool is natively integrated into the $MGM emission system and therefore they accrue emissions while providing liquidity.
 
 Stability providers can coordinate and vote to maximize the share of emissions directed toward Stability Pool deposits.
 
@@ -44,7 +44,7 @@ Stability providers can coordinate and vote to maximize the share of emissions d
 
 As a general rule, you can withdraw the deposit made to the Stability Pool at any time. However, there is a cooling-down period, which is initially set at 7 days.
 
-When there are Vaults with a collateral ratio below`150%` that have not been liquidated yet, withdrawals are temporarily suspended.
+When there are Vaults with a MLTV ratio of over 77`%` that have not been liquidated yet, withdrawals are temporarily suspended.
 
 冷静期内继续获得相应奖励，并参与清算，但7天后就自动退出稳定池子，不参与清算，不获得收益，
 
@@ -52,43 +52,62 @@ When there are Vaults with a collateral ratio below`150%` that have not been liq
 
 ### Can I lose money by depositing funds to the Stability Pool?
 
-While liquidations will occur at a collateral ratio well above `100%` most of the time, it is theoretically possible that a Vault gets liquidated below `100%` in a flash crash or due to an oracle failure. In such a case, you may experience a loss since the collateral gain will be smaller than the reduction of your deposit.&#x20;
+While liquidations will occur at a MLTV above 77`%` most of the time, it is theoretically possible that a Vault gets liquidated below `77%` in a flash crash or due to an oracle failure. In such a case, you may experience a loss since the collateral gain will be smaller than the reduction of your deposit.&#x20;
 
-If ioUSD is trading above `$1`, liquidations may become unprofitable for Stability Providers even at collateral ratios higher than `100%`. However, this loss is hypothetical since ioUSD is expected to return to the peg, so the “loss” only materializes if you had withdrawn your deposit and sold the ioUSD at a price above `$1`.
+If ioUSD is trading above `$1`, liquidations may become unprofitable for Stability Providers even at a MLTV ratio higher than `77%`. However, this loss is hypothetical since ioUSD is expected to return to the peg, so the “loss” only materializes if you had withdrawn your deposit and sold the ioUSD at a price above `$1`.
 
-Please note that a hack or a bug that results in losses for the users can never be fully excluded.
+{% hint style="danger" %}
+Please note: A hack, exploit or a bug that results in losses for the users can never be fully excluded.
+{% endhint %}
 
 ## Liquidations
 
-In order to maintain full collateral backing for the entire ioUSD supply, Vaults that fall below the minimum collateral ratio of 150% are subject to liquidation.
+In order to maintain full collateral backing for the entire ioUSD supply, Vaults that rise above the MLTV ratio of 77% are subject to liquidation.
 
 The debt associated with the liquidated Vault is nullified and absorbed by the Stability Pool, and the collateral is redistributed amongst the stability providers.
 
-Despite the liquidation, the Vault owner retains the full amount of ioUSD borrowed, but suffers an overall loss up to 50% in value. Consequently, it is crucial for borrowers to maintain their collateral ratio above the minimum threshold of 150%, and, ideally, they should aim to keep it above 200%.
+Despite the liquidation, the Vault owner retains the full amount of ioUSD borrowed, but suffers an overall loss up to 50% in value. Consequently, it is crucial for borrowers to maintain their collateral ratio below the maximum threshold of 77%, and, ideally, they should aim to keep it below 50%.
+
+{% hint style="warning" %}
+Please note: The Maximum System LTV ratio is 65%. This activates [Recovery Mode](recovery-mode.md).
+{% endhint %}
 
 ### Liquidators
 
-Anyone can initiate the liquidation of an Vault once its collateral ratio falls below the Minimum Collateral Ratio of 150%. To incentivise this action, the liquidator is rewarded with a gas compensation.
+Anyone can initiate the liquidation of an Vault once its collateral ratio rises above the MLTV ratio of 77%. To incentivise this action, the liquidator is rewarded with gas compensation.
 
 Liquidating Vaults involves certain gas costs that the liquidator must bear. To mitigate these costs, the protocol allows batch liquidations of multiple Vaults, reducing the cost per Vault. However, to ensure liquidations remain profitable even when gas prices skyrocket, the protocol provides a gas compensation determined by the following formula:
 
-Gas Compensation = 1 ioUSD + 0.5% of Vault's collateral&#x20;
+`Gas Compensation = 1 ioUSD + 0.5% of Vault's collateral`&#x20;
 
-The 1 ioUSD is sourced from the Liquidation Reserve, while the variable 0.5% portion is taken from the liquidated collateral. This slightly diminishes the liquidation gain for stability providers
+The 1 ioUSD is sourced from the Liquidation Reserve, while the variable 0.5% portion is taken from the liquidated collateral. This slightly diminishes the liquidation gain for stability providers.
 
-### Liquidations rules
+#### How do liquidations work?
 
-The way liquidations are enacted varies depending on certain conditions. This table elucidates all the different scenarios.
+In Normal Mode, liquidations can only happen if your LTV goes above the Maximum LTV (77%). In Recovery Mode, the following parameters affect the behavior of Magma during Recovery Mode:
 
-**`ICR`**` ``= Individual Collateral Ratio`
+`ILTV = Individual Loan-to-Value ratio` (Maximum ILTV = 77%)
 
-**`MCR`**` ``= Minimum Collateral Ratio = 130%`
+`MLTV = Maximum Loan-to-Value ratio` (Maximum System LTV = 65%)
 
-**`TCR`**` ``= Total Collateral Ratio = 200%`
+`TLTV = current Total Loan-to-Value ratio`
 
-**`SP`**` ``= Stability Pool`
+`SP ioUSD = Amount of ioUSD in the Stability Pool`
 
-<table data-header-hidden><thead><tr><th width="220">Condition                                              </th><th width="220">SP ioUSD &#x3C;-> Vault Debt</th><th>Liquidation Behavior</th></tr></thead><tbody><tr><td>Condition                                              </td><td></td><td>Liquidation Behavior</td></tr><tr><td>ICR &#x3C;=100%</td><td></td><td>Redistribute all debt and collateral (minus collateral gas compensation) to active vaults.</td></tr><tr><td>100% &#x3C; ICR &#x3C; MCR &#x26; SP ioUSD > Vault debt</td><td></td><td>ioUSD in the Stability Pool equal to the Vault's debt is offset with the Vault's debt. The Vault's collateral (minus gas compensation) is shared between depositors.</td></tr><tr><td>100% &#x3C; ICR &#x3C; MCR &#x26; SP ioUSD &#x3C; Vault debt</td><td></td><td>The total Stability Pool ioUSD is offset with an equal amount of debt from the Vault. A fraction of the Trove's collateral (equal to the ratio of its offset debt to its entire debt) is shared between depositors. The remaining debt and collateral (minus ETH gas compensation) is redistributed to active Vaults.</td></tr><tr><td>MCR &#x3C;= ICR &#x3C; 200% &#x26; SP ioUSD >= Vault debt</td><td></td><td>The Stability Pool ioUSD is offset with an equal amount of debt from the Vault. A fraction of collateral with dollar value equal to <code>1.2 * debt</code> is shared between depositors. Nothing is redistributed to other active Vaults. Since its ICR was <code>> 1.5</code>, the Vault has a collateral remainder, which is sent to the <code>CollSurplusPool</code> and is claimable by the borrower. The Vault is closed.</td></tr><tr><td>MCR &#x3C;= ICR &#x3C; 200% &#x26; SP ioUSD &#x3C; Vault debt</td><td></td><td>Do nothing.</td></tr><tr><td>ICR >= 200%</td><td></td><td>Do nothing.</td></tr></tbody></table>
+`Vault Debt = The amount of ioUSD taken as a loan from a Vault`
+
+| Condition                                      | Liquidation Behavior                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ILTV >=100%`                                  | Redistribute all debt and collateral (minus compensation) to active Vaults of the same collateral type.                                                                                                                                                                                                                                                                                                              |
+| `MLTV < ILTV < 100% & SP ioUSD > Vault debt`   | ioUSD in the Stability Pool equal to the Vault's debt is offset with the Vault's debt. The Vault's collateral (minus the liquidator compensation) is shared between depositors.                                                                                                                                                                                                                                      |
+| `MLTV < ILTV < 100% & SP ioUSD < Vault debt`   | The total Stability Pool ioUSD is offset with an equal amount of debt from the Vault. A fraction of the Vault's collateral (equal to the ratio of its offset debt to its entire debt) is shared between Stability Providers. The remaining debt and collateral (minus the liquidator compensation) is redistributed to active Vaults to reduce their TVL.                                                            |
+| `TLTV < ILTV <= MLTV & SP ioUSD >= Vault debt` | The Stability Pool `ioUSD` is offset with an equal amount of debt from the Vault. A fraction of collateral with dollar value equal to `1.3 * debt` for IOTX is shared between Stability Providers. Nothing is redistributed to other active Vaults. Since its ILTV was `< 0.77`, the Vault has a collateral remainder, which is sent to the `CollSurplusPool` and is claimable by the borrower. The Vault is closed. |
+| `TLTV < ILTV <= MLTV & SP ioUSD < Vault debt`  | Do nothing.                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `ILTV <= TLTV`                                 | Do nothing.                                                                                                                                                                                                                                                                                                                                                                                                          |
+
+A good rule of thumb is to be under the TLTV and the MLTV in Recovery Mode. It is advisable to also monitor the TLTV to avoid liquidation. It is important to note that, because of its design, actions taken by users interacting with the Smart Contracts developed by Magma will always value 1 ioUSD as if it is worth $1 USD.
+
+This does not mean that the value of ioUSD will always be equal to $1 USD; users need to be aware that the price of ioUSD can, and very likely will, move below or above those ranges in Decentralized or Centralized Exchanges. It is important that users understand those mechanisms very well before interacting with Magma.
 
 ### What happens if the Stability Pool is empty when liquidations occur?&#x20;
 
@@ -115,7 +134,7 @@ for i in range(len(claimable)):
 
 ```
 
-if this check passes, the user can call `claimCollateralGains` normally using the indexes with non zero claimable amounts in the claimable array. if this check fails, they must either:
+if this check passes, the user can call `claimCollateralGains` normally using the indexes with non-zero claimable amounts in the claimable array. if this check fails, they must either:
 
-1. claim any pending $Pillar rewards first
-2. send a transaction to withdraw 0 ioUSD from the stability pool, updating the claimable balance.
+1. Claim any pending $MGM rewards first
+2. Send a transaction to withdraw 0 ioUSD from the stability pool, updating the claimable balance.

@@ -2,7 +2,7 @@
 
 ## Mint ioUSD
 
-Users open a vault and mint by depositing IOTX, the first Magma supported collateral. A **minimum debt** of `1,000 ioUSD` is required (this includes the `200 ioUSD` [Liquidation Reserve](how-to-use-magma.md#liquidation-reserve)) up to a **maximum debt** at a collateral ratio of `150%.`
+Users open a vault and mint by depositing IOTX, the first Magma supported collateral. A **minimum debt** of `1,000 ioUSD` is required (this includes the `200 ioUSD` [Liquidation Reserve](how-to-use-magma.md#liquidation-reserve)) up to a **maximum debt** at a Loan-To-Value rate of 77`%.`
 
 You will find more information on the [Minting ioUSD](../protocol-concepts/borrowing-iousd.md) page.
 
