@@ -1,19 +1,19 @@
-# Borrowing ioUSD
+# Borrowing WEN
 
 ## Depositing and Borrowing
 
-Anyone may obtain liquidity at any time in an entirely permissionless manner after depositing supported collateral into a Vault. At first, only IOTX can be used as collateral locked in Vaults and this allows Vault owners to withdraw up to 77% of its current dollar value in the form of ioUSD stablecoins. In other words, the user's Vault must always maintain a Maximum Loan-to-Value ratio (MLTV) of 77%, defined as the ratio of the withdrawn liquidity to the current dollar value of the collateral.
+Anyone may obtain liquidity at any time in an entirely permissionless manner after depositing supported collateral into a Vault. At first, only `IOTX` can be used as collateral locked in Vaults and this allows Vault owners to withdraw up to 77% of its current dollar value in the form of `WEN` stablecoins. In other words, the user's Vault must always maintain a Maximum Loan-to-Value ratio (MLTV) of 77%, defined as the ratio of the withdrawn liquidity to the current dollar value of the collateral.
 
 Borrowers can repay or borrow more liquidity within the limits of the MLTV whenever they wish. Within the same limit, they can retrieve their collateral. Moreover, a Vault can be topped up with more collateral as needed.
 
-_The protocol imposes a minimum debt of 1,000 ioUSD. Therefore, Vaults can only be opened with an initial debt of at least 1,000 ioUSD and may never go below a debt of 1,000 ioUSD, unless fully repaid and closed._
+_The protocol imposes a minimum debt of 1,000 `WEN`. Therefore, Vaults can only be opened with an initial debt of at least 1,000 `WEN` and may never go below a debt of 1,000 `WEN`, unless fully repaid and closed._
 
 ## Vault
 
 A Vault is where you open and maintain your loan. Vaults maintain two balances:&#x20;
 
-1. An asset (IOTX) acting as collateral&#x20;
-2. A debt denominated in ioUSD.
+1. An asset (`IOTX`) acting as collateral&#x20;
+2. A debt denominated in `WEN`.
 
 You can change the amount of each by adding collateral or repaying debt.
 
@@ -54,9 +54,9 @@ It is important to note the following points:
 
 ## Liquidation Reserve
 
-When a borrower opens a new Vault, an amount of 1 ioUSD is reserved and held back by the protocol as a compensation for the gas costs if the Vault needs to be liquidated at some point. The 1 ioUSD is added to the Vault’s debt, impacting its collateral ratio.
+When a borrower opens a new Vault, an amount of 1 `WEN` is reserved and held back by the protocol as a compensation for the gas costs if the Vault needs to be liquidated at some point. The 1 `WEN` is added to the Vault’s debt, impacting its collateral ratio.
 
-When a borrower closes their Vault, the Liquidation Reserve is refunded, i.e. the corresponding 1 ioUSD debt on the Vault is cancelled. The borrower therefore needs to pay back 1 ioUSD less to fully pay off their debt.
+When a borrower closes their Vault, the Liquidation Reserve is refunded, i.e. the corresponding 1 `WEN` debt on the Vault is cancelled. The borrower therefore needs to pay back 1 `WEN` less to fully pay off their debt.
 
 ## Borrowing Fee
 
@@ -65,8 +65,6 @@ The protocol charges a one-time Borrowing Fee for the borrowed liquidity. The fe
 ## Restrictions due to Recovery Mode.
 
 Borrower operations are restricted in several respects when the system is in Recovery Mode or on the verge of reaching this state (see [Recovery Mode](recovery-mode.md)).
-
-
 
 To avoid liquidation despite collateral price changes, it is highly recommended to keep the collateral ratio of a Vault well above the MCR. Given that in Recovery Mode, liquidations may even affect Vaults with higher collateral ratios (maximally up to 200%), risk averse borrowers should sufficiently collateralize their Vaults to avoid being near the bottom tiers of collateralization relative to other Vaults whenever the system is close to Recovery Mode.
 
@@ -78,8 +76,8 @@ Maintaining a relatively high collateral ratio high also reduces the risk of get
 
 Since less collateral is needed for the same loan, Magma offers more capital efficiency than other decentralized lending platforms. Your productive asset continues to provide you with interest even when it is used as a collateral.&#x20;
 
-In time you will also be able to mint ioUSD using USDC as collateral, removing liquidation risk and opening doors for activities like investing in Real World Assets.
+In time Magma will determine whether users will be able to mint `WEN` using `USDC` as collateral, removing liquidation risk and opening doors for activities like investing in Real World Assets.
 
-Further along the road map is the potential for a multi-chain stablecoin using Magma. Explore DeFi further.
+Further along the road map is the potential for a multi-chain stablecoin using Magma. We can lookin to explore DeFi further with `WEN`.
 
 &#x20;

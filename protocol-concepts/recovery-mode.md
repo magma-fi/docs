@@ -4,7 +4,7 @@
 
 Recovery Mode is activated when the Maximum Loan-to-Value (MLTV) ratio of the system rises above `65%`. In this state, any Vault with a collateral ratio above the MLTV is subject to liquidation.&#x20;
 
-Furthermore, the system puts a halt to any borrower transactions that could potentially exacerbate the increase in MLTV. The only way new `ioUSD` can be generated during this period is by either improving the collateral ratio of existing Vaults, or by establishing a new Vault with a collateral ratio that is `less than or` equal to `65%`.&#x20;
+Furthermore, the system puts a halt to any borrower transactions that could potentially exacerbate the increase in MLTV. The only way new `WEN` can be generated during this period is by either improving the collateral ratio of existing Vaults, or by establishing a new Vault with a collateral ratio that is `less than or` equal to `65%`.&#x20;
 
 Generally, if an adjustment to an existing Vault leads to an increase in its collateral ratio, the transaction will only go through if the resultant MLTV remains below `65%`.&#x20;
 
@@ -16,7 +16,7 @@ Put differently, it's the collective value of all the cumulative debt of all Vau
 
 ### Rationale for the Recovery Mode&#x20;
 
-The primary objective of Recovery Mode is to encourage actions that rapidly decrease the TLTV to below `65%`, and to motivate `ioUSD` holders to refill the Stability Pool. From an economic perspective, Recovery Mode is structured to promote additional collateral deposits and debt repayments.&#x20;
+The primary objective of Recovery Mode is to encourage actions that rapidly decrease the TLTV to below `65%`, and to motivate `WEN` holders to refill the Stability Pool. From an economic perspective, Recovery Mode is structured to promote additional collateral deposits and debt repayments.&#x20;
 
 Moreover, the very prospect of entering Recovery Mode serves as a preventative measure, steering the system away from ever entering this state. It's important to note that Recovery Mode is not an optimal state for the system to operate in.&#x20;
 

@@ -1,3 +1,0 @@
-# Magma DAO
-
-TBD

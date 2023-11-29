@@ -1,12 +1,12 @@
 # How to use Magma
 
-## Mint ioUSD
+## Mint `WEN`
 
-Users open a vault and mint by depositing IOTX, the first Magma supported collateral. A **minimum debt** of `1,000 ioUSD` is required (this includes the `200 ioUSD` [Liquidation Reserve](how-to-use-magma.md#liquidation-reserve)) up to a **maximum debt** at a Loan-To-Value rate of 77`%.`
+Users open a vault and mint by depositing `IOTX`, the first Magma supported collateral. A **minimum debt** of `1,000 WEN` is required (this includes the `200 WEN` [Liquidation Reserve](how-to-use-magma.md#liquidation-reserve)) up to a **maximum debt** at a Loan-To-Value rate of `77%`.
 
-You will find more information on the [Minting ioUSD](../protocol-concepts/borrowing-iousd.md) page.
+You will find more information on the [Minting `WEN`](../protocol-concepts/borrowing-wen.md) page.
 
-## Earn with ioUSD
+## Earn with `WEN`
 
 Users can earn money on Magma by providing liquidity to the Stability Pool. The Stability Pool is used to help repay the debts of liquidated vaults that go above the maximum LTV.&#x20;
 
