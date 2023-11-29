@@ -17,7 +17,8 @@ Both fixed fees and continuous interest can be adjusted by the governance of the
 
 Minting fees are one-time fees charged at the moment of borrowing. In the Magma protocol, this fee is applied when a user borrows `WEN` against their collateral.
 
-Every time `WEN` is withdrawn from an vault, a minting fee is charged on the drawn amount and added to the debt. Please note that the minting fee is variable (and determined algorithmically), with a minimum value of `0.5%` under normal operation. The fee is `0%` during [`Recovery Mode`](broken-reference). \
+Every time `WEN` is withdrawn from an vault, a minting fee is charged on the drawn amount and added to the debt. Please note that the minting fee is variable (and determined algorithmically), with a minimum value of `0.5%` under normal operation. The fee is `0%` during [`Recovery Mode`](broken-reference).&#x20;
+
 A `10 WEN` `Liquidation Reserve` charge will be applied as well, but returned upon repayment of debt.
 
 #### **Minting fee calculation**
