@@ -46,9 +46,9 @@ As a general rule, you can withdraw the deposit made to the Stability Pool at an
 
 When there are Vaults with a MLTV ratio of over 77`%` that have not been liquidated yet, withdrawals are temporarily suspended.
 
-冷静期内继续获得相应奖励，并参与清算，但7天后就自动退出稳定池子，不参与清算，不获得收益，
+There will be no rewards during the cooling-off period and no participation in liquidation. You can withdraw it after 7 days.
 
-如果每次取不一样的数？？？
+
 
 ### Can I lose money by depositing funds to the Stability Pool?
 
