@@ -20,3 +20,7 @@
 
 * [Contracts](contracts-and-security/contracts.md)
 * [Audits](contracts-and-security/audits.md)
+
+## Miscellaneous
+
+* [Brand Assets](miscellaneous/brand-assets.md)
