@@ -4,6 +4,8 @@ description: Please use this images as they are. Resize but don't rearrange or r
 
 # Brand Assets
 
+### Magma Protocol Logos
+
 Logo
 
 <figure><img src="../.gitbook/assets/magma-logo-icon (1).png" alt=""><figcaption></figcaption></figure>
@@ -23,3 +25,11 @@ Horizontal on dark
 Horizontal on light
 
 <figure><img src="../.gitbook/assets/magma-logo-onlight-horizontal@8x (1).png" alt=""><figcaption></figcaption></figure>
+
+### WEN Logo
+
+Coming presently
+
+### MGM Logo
+
+Coming 2024
