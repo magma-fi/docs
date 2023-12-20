@@ -6,7 +6,7 @@ Anyone may obtain liquidity at any time in an entirely permissionless manner aft
 
 Borrowers can repay or borrow more liquidity within the limits of the MLTV whenever they wish. Within the same limit, they can retrieve their collateral. Moreover, a Vault can be topped up with more collateral as needed.
 
-_The protocol imposes a minimum debt of 1,000 `WEN`. Therefore, Vaults can only be opened with an initial debt of at least 1,000 `WEN` and may never go below a debt of 1,000 `WEN`, unless fully repaid and closed._
+_The protocol imposes a minimum debt of 100 `WEN`. Therefore, Vaults can only be opened with an initial debt of at least 100 `WEN` and may never go below a debt of 100 `WEN`, unless fully repaid and closed._
 
 ## Vault
 
