@@ -1,3 +1,33 @@
+---
+description: Smart contract addresses for Magma
+---
+
 # Contracts
 
-Under construction. When `WEN`? Ready soon.
+## IoTeX Smart Contracts
+
+**PriceFeed:** 0xCfE22Ea152e364Fa4261D1F9bECe83171397718d
+
+**WENToken:** 0x20143C45c2Ce7984799079F256d8a68A918EeEe6
+
+**TroveManager:** 0xAeB0B38040aDdc4a2b520919f13944D9bC944435
+
+**BorrowerOperations:** 0x51729FC7f777b29ffCd40fD4ccC699BC2e023826
+
+**ActivePool:** 0x15B7152730c9B32eb6f5A0081582e5Bc3785c57A
+
+**StabilityPool:** 0x109e342FE7132585abFa785887E2c05c85Fbcf71
+
+**GasPool:** 0x9e64dF2f23e3bf732ac017A963f47A8E0f93A071
+
+**DefaultPool:** 0x0F5862f3fF41fe000c939a3cD5c2f407E7fdb63f
+
+**CollSurplusPool:** 0x6AdD3E2edA80bc5070052feEb651973cb44fa7B2
+
+**FunctionCaller:** 0x701904FEccD6e0862DbDcb1ae3f8e09d0B5e02Ad
+
+**HintHelpers:** 0x936de2259312B24E660ea10e814460B5Fae5383f
+
+**MultiTroveGetter:** 0xd33b417DF4A9D0d8edb819fc500d4C49Cc93BDd1
+
+**SortedTroves:** 0xA9e8e0589d9BB0C0B56010fb8E41F3D886b648b8

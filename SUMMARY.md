@@ -21,6 +21,12 @@
 * [Contracts](contracts-and-security/contracts.md)
 * [Audits](contracts-and-security/audits.md)
 
+## Tutorials
+
+* [Textual Basic Tutorial](tutorials/textual-basic-tutorial.md)
+* [Visual Basic Tutorial](tutorials/visual-basic-tutorial.md)
+
 ## Miscellaneous
 
 * [Brand Assets](miscellaneous/brand-assets.md)
+* [Website Terms of Use](miscellaneous/website-terms-of-use.md)
