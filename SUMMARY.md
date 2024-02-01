@@ -28,5 +28,6 @@
 
 ## Miscellaneous
 
+* [Social Links](miscellaneous/social-links.md)
 * [Brand Assets](miscellaneous/brand-assets.md)
 * [Website Terms of Use](miscellaneous/website-terms-of-use.md)
