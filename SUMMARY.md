@@ -15,6 +15,7 @@
 * [Recovery Mode](protocol-concepts/recovery-mode.md)
 * [Yield Strategy](protocol-concepts/yield-strategy.md)
 * [Fees](protocol-concepts/fees.md)
+* [Magma Points](protocol-concepts/magma-points.md)
 
 ## Contracts and Security
 
