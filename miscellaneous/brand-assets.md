@@ -10,6 +10,10 @@ Logo
 
 <figure><img src="../.gitbook/assets/magma-logo-icon (1).png" alt=""><figcaption></figcaption></figure>
 
+Square logo (200x200)
+
+<figure><img src="../.gitbook/assets/magma_square.png" alt=""><figcaption></figcaption></figure>
+
 Vertical on dark
 
 <figure><img src="../.gitbook/assets/magma-logo-ondark-vertical@8x (1).png" alt=""><figcaption></figcaption></figure>
