@@ -32,7 +32,13 @@ Horizontal on light
 
 ### WEN Logo
 
-Coming presently
+200x200
+
+<figure><img src="../.gitbook/assets/WEN 200x200.png" alt=""><figcaption></figcaption></figure>
+
+500x500
+
+<figure><img src="../.gitbook/assets/WEN 500x500.png" alt=""><figcaption></figcaption></figure>
 
 ### MGM Logo
 
