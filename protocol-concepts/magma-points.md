@@ -9,12 +9,7 @@ To encourage and reward early participation in Magma Protocol, there is the oppo
 * Stability Pool WEN - 10 Magma Points per WEN per hour
 * IOTX/WEN - 10 Magma Points per USD per hour
 * Referrals - 10% of referred users' accumulated points
-
-
-
-ETA 17th March, 2024
-
-* DePIN Liquidity Hub - GEOD/WEN, XNET/WEN, WIFI/WEN, 10 Magma Points per USD per hour
+* (ETA 17th March) DePIN Liquidity Hub - GEOD/WEN, XNET/WEN, WIFI/WEN, 10 Magma Points per USD per hour
 
 {% hint style="success" %}
 Referral points (10%) are gained for each point earned by a referred user who stakes in the Stability Pool or IOTX/WEN LP.
