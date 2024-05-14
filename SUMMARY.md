@@ -17,6 +17,10 @@
 * [Fees](protocol-concepts/fees.md)
 * [Magma Points](protocol-concepts/magma-points.md)
 
+## Magma Blog
+
+* [A Native Stablecoin for DePINs](magma-blog/a-native-stablecoin-for-depins.md)
+
 ## Contracts and Security
 
 * [Contracts](contracts-and-security/contracts.md)
