@@ -19,7 +19,7 @@ Once you have logged into your Magma account, you can proceed with depositing co
 1. On the Magma dashboard, locate the "Deposit Collateral" section.
 2. Click on the "Deposit" button to initiate the deposit process.
 3. Select the type of collateral you wish to deposit from the available options.
-4. Enter the desired amount of collateral you want to deposit.
+4. Enter the amount of collateral you want to deposit.
 5. Confirm the transaction and approve the deposit. Once your collateral deposit is successful, you are now ready to borrow WEN.
 
 ### Step 3: Borrowing WEN&#x20;
