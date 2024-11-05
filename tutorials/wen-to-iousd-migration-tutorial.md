@@ -10,7 +10,7 @@ Minting the Magma stablecoin (ioUSD) will be possible using collateralised debt 
 
 ### Below are three ways to manage holding WEN and migrate away from this previous iteration of the Magma stablecoin.&#x20;
 
-1. Users with Magma positions (IOTX debt positions to mint WEN) can repay the WEN and redeem IOTX in [Magma](https://app.magma.finance/)
+1. Users with Magma positions (IOTX debt positions to mint WEN) can repay the WEN and redeem IOTX in [Magma->Borrow WEN](https://app.magma.finance/).
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-10-31 at 23.07.32.png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -18,6 +18,6 @@ Minting the Magma stablecoin (ioUSD) will be possible using collateralised debt 
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-10-31 at 23.09.34.png" alt="" width="188"><figcaption></figcaption></figure>
 
-3. WEN can be redeemed on [Magma ](https://app.magma.finance/stake)for the equivalent value of IOTX (WEN at a price of $1)
+3. WEN can also be redeemed on [Magma->Stake WEN->Exchange WEN For IOTX ](https://app.magma.finance/stake)for the equivalent value of IOTX (WEN at a price of $1)
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-10-31 at 23.05.22.png" alt="" width="188"><figcaption></figcaption></figure>
