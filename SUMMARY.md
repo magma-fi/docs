@@ -20,6 +20,7 @@
 ## Magma Blog
 
 * [A Native Stablecoin for DePINs](magma-blog/a-native-stablecoin-for-depins.md)
+* [Renaming WEN to ioUSD](magma-blog/renaming-wen-to-iousd.md)
 
 ## Contracts and Security
 
