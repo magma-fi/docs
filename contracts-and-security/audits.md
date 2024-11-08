@@ -6,7 +6,14 @@ description: Security audits of the protocol
 
 We are pleased to say that the initial audit of the Magma Protocol has been completed.&#x20;
 
-#### Full report:
+### Current
 
-[https://github.com/magma-fi/Audits/blob/main/MagmaStablecoin\_final\_Secure3\_Audit\_Report.pdf](https://github.com/magma-fi/Audits/blob/main/MagmaStablecoin\_final\_Secure3\_Audit\_Report.pdf)
+#### Update report (v2, ioUSD)
 
+{% file src="../.gitbook/assets/Magma_Update_Secure3_Audit_Report.pdf" %}
+
+### Previous
+
+#### Full report (v1, WEN):
+
+{% file src="../.gitbook/assets/MagmaStablecoin_final_Secure3_Audit_Report.pdf" %}
