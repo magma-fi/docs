@@ -10,7 +10,7 @@ description: Smart contract addresses for Magma
 
 **priceFeed**: 0x1Ec94b48F3756F0D6240Bc7820EA4B5D7855D00A
 
-**ioUSD Token**: 0xa1A1531f6aE90192edCc32e9F38E98F303708144 (lusdtoken)
+**ioUSD Token**: 0xa1A1531f6aE90192edCc32e9F38E98F303708144 (lusdToken)
 
 **sortedTroves**: 0x75BA333C6b2f03C31dA83aF396f54ABCf10383A4
 
