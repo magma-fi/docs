@@ -1,45 +1,43 @@
 ---
-description: Please use this images as they are. Resize but don't rearrange or re-colour.
+description: >-
+  Please use this images as they are. Resizing is acceptable but don't rearrange
+  text positions or change the colours.
 ---
 
 # Brand Assets
+
+### ioUSD Logo
+
+Square logo
+
+<figure><img src="../.gitbook/assets/logo1104-2.png" alt="" width="280"><figcaption></figcaption></figure>
 
 ### Magma Protocol Logos
 
 Logo
 
-<figure><img src="../.gitbook/assets/magma-logo-icon (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/magma-logo-icon (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Square logo (200x200)
 
 <figure><img src="../.gitbook/assets/magma_square.png" alt=""><figcaption></figcaption></figure>
 
-Vertical on dark
+Text vertical on dark
 
-<figure><img src="../.gitbook/assets/magma-logo-ondark-vertical@8x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/magma-logo-ondark-vertical@8x (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Vertical on light
+Text vertical on light
 
-<figure><img src="../.gitbook/assets/magma-logo-onlight-vertical@8x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/magma-logo-onlight-vertical@8x (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Horizontal on dark
+Text horizontal on dark
 
-<figure><img src="../.gitbook/assets/magma-logo-ondark-horizontal@8x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/magma-logo-ondark-horizontal@8x (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-Horizontal on light
+Text horizontal on light
 
-<figure><img src="../.gitbook/assets/magma-logo-onlight-horizontal@8x (1).png" alt=""><figcaption></figcaption></figure>
-
-### WEN Logo
-
-200x200
-
-<figure><img src="../.gitbook/assets/WEN 200x200.png" alt=""><figcaption></figcaption></figure>
-
-500x500
-
-<figure><img src="../.gitbook/assets/WEN 500x500.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/magma-logo-onlight-horizontal@8x (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### MGM Logo
 
-Coming 2024
+Pending

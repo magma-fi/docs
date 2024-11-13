@@ -9,7 +9,7 @@
 
 ## Protocol Concepts
 
-* [Borrowing WEN](protocol-concepts/borrowing-wen.md)
+* [Borrowing ioUSD](protocol-concepts/borrowing-iousd.md)
 * [Redemption Mechanism](protocol-concepts/redemption-mechanism.md)
 * [Stability Pool and Liquidations](protocol-concepts/stability-pool-and-liquidations.md)
 * [Recovery Mode](protocol-concepts/recovery-mode.md)
@@ -29,9 +29,9 @@
 
 ## Tutorials
 
-* [Textual Basic Tutorial](tutorials/textual-basic-tutorial.md)
-* [Visual Basic Tutorial](tutorials/visual-basic-tutorial.md)
-* [WEN to ioUSD Migration Tutorial](tutorials/wen-to-iousd-migration-tutorial.md)
+* [Simple Text Tutorial](tutorials/simple-text-tutorial.md)
+* [Simple Visual Tutorial](tutorials/simple-visual-tutorial.md)
+* [Migrating WEN to ioUSD Tutorial](tutorials/migrating-wen-to-iousd-tutorial.md)
 
 ## Miscellaneous
 

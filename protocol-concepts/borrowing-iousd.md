@@ -1,19 +1,19 @@
-# Borrowing WEN
+# Borrowing ioUSD
 
 ## Depositing and Borrowing
 
-Anyone may obtain liquidity at any time in an entirely permissionless manner after depositing supported collateral into a Vault. At first, only `IOTX` can be used as collateral locked in Vaults and this allows Vault owners to withdraw up to 77% of its current dollar value in the form of `WEN` stablecoins. In other words, the user's Vault must always maintain a Maximum Loan-to-Value ratio (MLTV) of 77%, defined as the ratio of the withdrawn liquidity to the current dollar value of the collateral.
+Anyone may obtain liquidity at any time in an entirely permissionless manner after depositing supported collateral into a Vault. At first, only `IOTX` can be used as collateral locked in Vaults and this allows Vault owners to withdraw up to 77% of its current dollar value in the form of `ioUSD` stablecoins. In other words, the user's Vault must always maintain a Maximum Loan-to-Value ratio (MLTV) of 77%, defined as the ratio of the withdrawn liquidity to the current dollar value of the collateral.
 
 Borrowers can repay or borrow more liquidity within the limits of the MLTV whenever they wish. Within the same limit, they can retrieve their collateral. Moreover, a Vault can be topped up with more collateral as needed.
 
-_The protocol imposes a minimum debt of 100 `WEN`. Therefore, Vaults can only be opened with an initial debt of at least 100 `WEN` and may never go below a debt of 100 `WEN`, unless fully repaid and closed._
+_<mark style="color:yellow;">The protocol imposes a minimum loan of 100</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">`ioUSD`</mark><mark style="color:yellow;">. Therefore, Vaults can only be opened with an initial loan of at least 100</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">`ioUSD`</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">and may never go below a debt of loan</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">`ioUSD`</mark><mark style="color:yellow;">, unless fully repaid and closed.</mark>_
 
 ## Vault
 
 A Vault is where you open and maintain your loan. Vaults maintain two balances:&#x20;
 
 1. An asset (`IOTX`) acting as collateral&#x20;
-2. A debt denominated in `WEN`.
+2. A loan denominated in `ioUSD`.
 
 You can change the amount of each by adding collateral or repaying debt.
 
@@ -54,9 +54,9 @@ It is important to note the following points:
 
 ## Liquidation Reserve
 
-When a borrower opens a new Vault, an amount of 1 `WEN` is reserved and held back by the protocol as a compensation for the gas costs if the Vault needs to be liquidated at some point. The 1 `WEN` is added to the Vault’s debt, impacting its collateral ratio.
+When a borrower opens a new Vault, an amount of 1 `ioUSD` is reserved and held back by the protocol as a compensation for the gas costs if the Vault needs to be liquidated at some point. The 1 `ioUSD` is added to the Vault’s debt, impacting its collateral ratio.
 
-When a borrower closes their Vault, the Liquidation Reserve is refunded, i.e. the corresponding 1 `WEN` debt on the Vault is cancelled. The borrower therefore needs to pay back 1 `WEN` less to fully pay off their debt.
+When a borrower closes their Vault, the Liquidation Reserve is refunded, i.e. the corresponding 1 `ioUSD` debt on the Vault is cancelled. The borrower therefore needs to pay back 1 `ioUSD` less to fully pay off their debt.
 
 ## Borrowing Fee
 
@@ -76,8 +76,8 @@ Maintaining a relatively high collateral ratio high also reduces the risk of get
 
 Since less collateral is needed for the same loan, Magma offers more capital efficiency than other decentralized lending platforms. Your productive asset continues to provide you with interest even when it is used as a collateral.&#x20;
 
-In time Magma will determine whether users will be able to mint `WEN` using `USDC` as collateral, removing liquidation risk and opening doors for activities like investing in Real World Assets.
+In time Magma will determine whether users will be able to mint `ioUSD` using `USDC` as collateral, removing liquidation risk and opening doors for activities like investing in Real World Assets.
 
-Further along the road map is the potential for a multi-chain stablecoin using Magma. We can lookin to explore DeFi further with `WEN`.
+Further along the road map is the potential for a multi-chain stablecoin using Magma. We can lookin to explore DeFi further with `ioUSD`.
 
 &#x20;

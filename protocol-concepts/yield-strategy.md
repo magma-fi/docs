@@ -11,5 +11,5 @@ The `IOTX` users deposited will be sent to a strategy manager contract and alloc
 
 ## Yield Distribution
 
-* 80% of yields will be sent to the Stability Pool as rewards and DEXs as bribes to incentivize liquidity for `WEN` and Magma `MGM`.
+* 80% of yields will be sent to the Stability Pool as rewards and DEXs as bribes to incentivize liquidity for `ioUSD` and Magma `MGM`.
 * 20% will be allocated to Magma `MGM` holders.
