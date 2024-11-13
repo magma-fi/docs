@@ -1,8 +1,12 @@
 ---
-description: First Published May 2024
+description: Published May 2024
 ---
 
 # A Native Stablecoin for DePINs
+
+{% hint style="info" %}
+`WEN` changed its name to `ioUSD` in November 2024. A more sensible name for a stablecoin on the IoTeX blockchain, home of DePIN.
+{% endhint %}
 
 Projected to become a $5 trillion market, DePIN is increasingly recognized as a pivotal evolution for cloud infrastructure. This burgeoning sector not only hosts a growing array of user and provider services and products but also attracts significant attention from leading research firms like Messari, Coinbase, Multicoin, and Pantera, which all forecast a surge in popularity and assets under management (AUM).
 
