@@ -4,7 +4,7 @@ description: >-
   ioUSD and staking ioUSD in the Stability Pool
 ---
 
-# Simple Text Tutorial
+# Deposit/Mint ioUSD/Stake (text)
 
 Welcome to the basic tutorial on how to deposit collateral into Magma and borrow `ioUSD`. This tutorial will also guide you on how to stake the borrowed `ioUSD` into the protocol Stability Pool. By following these steps, you will be able to participate in the Magma ecosystem and benefit from its features.
 
@@ -22,7 +22,7 @@ Once you have logged into your Magma account, you can proceed with depositing co
 4. Enter the amount of collateral you want to deposit.
 5. Confirm the transaction and approve the deposit. Once your collateral deposit is successful, you are now ready to borrow `ioUSD`.
 
-### Step 3: Borrowing `ioUSD`&#x20;
+### Step 3: Borrowing `ioUSD` `(`minting `ioUSD)`
 
 After depositing collateral, you can proceed with borrowing `ioUSD`. Follow these steps to borrow `ioUSD` on Magma:
 
