@@ -31,6 +31,9 @@
 
 * [Simple Text Tutorial](tutorials/simple-text-tutorial.md)
 * [Simple Visual Tutorial](tutorials/simple-visual-tutorial.md)
+* [Providing ioUSD Liquidity](tutorials/providing-iousd-liquidity/README.md)
+  * [Mimo Exchange LP Farming](tutorials/providing-iousd-liquidity/mimo-exchange-lp-farming.md)
+  * [Izumi Finance LP Farming](tutorials/providing-iousd-liquidity/izumi-finance-lp-farming.md)
 * [Migrating WEN to ioUSD Tutorial](tutorials/migrating-wen-to-iousd-tutorial.md)
 
 ## Miscellaneous
