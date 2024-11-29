@@ -4,9 +4,7 @@ description: >-
   and staking ioUSD in the Stability Pool
 ---
 
-# Simple Visual Tutorial
-
-\`
+# How to Mint and Stake ioUSD
 
 {% hint style="info" %}
 The Magma `WEN` stablecoin has now been renamed to `ioUSD`. The website is being updated to reflect this change. Once these updates are completed, this tutorial will also be updated.

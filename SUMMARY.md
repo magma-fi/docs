@@ -30,7 +30,7 @@
 ## Tutorials
 
 * [Simple Text Tutorial](tutorials/simple-text-tutorial.md)
-* [Simple Visual Tutorial](tutorials/simple-visual-tutorial.md)
+* [How to Mint and Stake ioUSD](tutorials/how-to-mint-and-stake-iousd.md)
 * [Providing ioUSD Liquidity](tutorials/providing-iousd-liquidity/README.md)
   * [Mimo Exchange LP Farming](tutorials/providing-iousd-liquidity/mimo-exchange-lp-farming.md)
   * [Izumi Finance LP Farming](tutorials/providing-iousd-liquidity/izumi-finance-lp-farming.md)
