@@ -1,7 +1,5 @@
 # Izumi Finance LP Farming
 
-
-
 There are two farms available for ioUSD liquidity on Izumi. One is IOTX/ioUSD, a volatile pairing, and the other is a stable pairing, ioUSD/USDC.e.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-11-29 at 11.32.50.png" alt=""><figcaption></figcaption></figure>
@@ -33,6 +31,6 @@ You also need to choose spending allowance caps for each token. This gives permi
 
 You have now provided liquidity! Each trade that uses this liquidity pool with earn you a fraction of its value.
 
-Izumi Finance farms don't require you to separately stake your LP into a farm so...
+**Izumi Finance farms don't require you to separately stake your LP into a farm so...**
 
 _You are now farming rewards with your LP Tokens on Izumi Finance._
