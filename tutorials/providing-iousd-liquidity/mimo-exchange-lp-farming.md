@@ -4,7 +4,7 @@
 
 There are two steps to complete in order to farm liquidity rewards on Mimo. Firstly, adding liquidity to the WIOTX/ioUSD pool, secondly, staking your liquidity tokens in the farm.
 
-#### Adding liquidity to the pool
+### Adding liquidity to the Mimo pool
 
 * Visit [mimo.exchange/farm](https://mimo.exchange/farm) and connect your wallet.
 
@@ -33,7 +33,7 @@ You also need to choose spending allowance caps for each token. This gives permi
 
 _You have now provided liquidity!_ Each trade that uses this liquidity pool will earn you a fraction of its value.
 
-### Adding liquidity to a farm
+### Adding liquidity to a Mimo farm
 
 Next is to stake your LP Tokens (Liquidity Provider Tokens) into the farm.
 
