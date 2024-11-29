@@ -6,7 +6,7 @@ description: >-
 
 # Simple Visual Tutorial
 
-How to Deposit IOTX, Borrow `ioUSD` (and Stake `ioUSD` in the Stability Pool) on Magma Protocol&#x20;
+\`
 
 {% hint style="info" %}
 The Magma `WEN` stablecoin has now been renamed to `ioUSD`. The website is being updated to reflect this change. Once these updates are completed, this tutorial will also be updated.
@@ -39,26 +39,34 @@ The tutorial still describes how to mint ioUSD using IOTX, _and now uniIOTX too_
 
 7. Click the "Borrow amount" field.
 8. Enter how many `ioUSD` you wish to borrow.&#x20;
-9. Click "Deposit" and approve transaction in your Web3 wallet.&#x20;
+9. Click "Deposit" and approve the transaction in your Web3 wallet.&#x20;
 
 <figure><img src="../.gitbook/assets/5 (1).png" alt=""><figcaption></figcaption></figure>
 
-10. Click "Back To Vault" Staking `ioUSD` in the Stability Pool&#x20;
+10. Click "Back To Vault"
 
-<figure><img src="../.gitbook/assets/7.png" alt=""><figcaption></figcaption></figure>
+_You have minted ioUSD using your assets as collateral._
 
-11. Click "Stake `ioUSD`" in the sidebar menu.&#x20;
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
+### Staking `ioUSD` in the Stability Pool&#x20;
 
-12. Click "Stake".
+1. Click "Stake `ioUSD`" in the sidebar menu.&#x20;
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+2. Click "Stake".
 
 <figure><img src="../.gitbook/assets/8.png" alt=""><figcaption></figcaption></figure>
 
-13. Click "Max: xxx.xx `ioUSD`" if you want to stake all your `ioUSD`. Or enter the number of `ioUSD` you wish to add to the Stability Pool in the Stake Amount field.
+3. Click "Max: xxx.xx `ioUSD`" if you want to stake all your `ioUSD`. Or enter the number of `ioUSD` you wish to add to the Stability Pool in the Stake Amount field.
 
 <figure><img src="../.gitbook/assets/9 (1).png" alt=""><figcaption></figcaption></figure>
 
-14. Click "Stake `ioUSD`"&#x20;
+4. Click "Stake `ioUSD`".
 
 <figure><img src="../.gitbook/assets/10.png" alt=""><figcaption></figcaption></figure>
+
+5. Approve the transaction.
+
+_You have now staked your ioUSD in the stability pool._
